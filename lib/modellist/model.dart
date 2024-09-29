@@ -2,19 +2,19 @@ List quotesapplist=[
   {
    "general":[
       {
-         "quote":"Spread love 💖 everywhere you go. Let no one ever come to you without leaving happier.",
+         "quote":"Spread love everywhere you go. Let no one ever come to you without leaving happier.",
          "author":"Mother Teresa"
       },
       {
-         "quote":"When you reach the end of your rope 🪢 , tie a knot in it and hang on.",
+         "quote":"When you reach the end of your rope , tie a knot in it and hang on.",
          "author":"Franklin D. Roosevelt"
       },
       {
-         "quote":"Always remember that you are absolutely unique 😇. Just like everyone else.",
+         "quote":"Always remember that you are absolutely unique . Just like everyone else.",
          "author":"Margaret Mead"
       },
       {
-         "quote":"The future belongs to those who believe in the beauty of their dreams. 😊",
+         "quote":"The future belongs to those who believe in the beauty of their dreams.",
          "author":"Eleanor Roosevelt"
       },
       {
@@ -22,15 +22,15 @@ List quotesapplist=[
          "author":"Benjamin Franklin"
       },
       {
-         "quote":"The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart 💓.",
+         "quote":"The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart .",
          "author":"Helen Keller"
       },
       {
-         "quote":"It is during our darkest 🌑 moments that we must focus to see the light ☀️.",
+         "quote":"It is during our darkest moments that we must focus to see the light .",
          "author":"Aristotle"
       },
       {
-         "quote":"Whoever is happy 😊 will make others happy too.",
+         "quote":"Whoever is happy will make others happy too.",
          "author":"Anne Frank"
       },
       {
@@ -42,7 +42,7 @@ List quotesapplist=[
          "author":"Wayne Gretzky"
       },
       {
-         "quote":"I have learned over the years that when one's mind 🤯 is made up, this diminishes fear.",
+         "quote":"I have learned over the years that when one's mind is made up, this diminishes fear.",
          "author":"Rosa Parks"
       },
       {
