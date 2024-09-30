@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class Quotes {
-  late String name, quotes;
   General general;
   Gaming gaming;
   Life life;
@@ -16,8 +15,7 @@ class Quotes {
   Travel travel;
 
   Quotes(
-      {required this.name,
-      required this.quotes,
+      {
       required this.birthday,
       required this.dream,
       required this.failure,
@@ -33,8 +31,6 @@ class Quotes {
 
   factory Quotes.fromMap(Map m1) {
     return Quotes(
-        name: m1['author'],
-        quotes: m1['quotes'],
         birthday: Birthday.fromMap(m1['birthday']),
         dream: Dream.fromMap(m1['dream']),
         failure: Failure.fromMap(m1['failure']),
