@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
 
-List backgroundimage=[
+List quoteslist=[
   
 ];
