@@ -31,22 +31,22 @@ class Quotes {
       required this.success,
       required this.travel});
 
-  factory Quotes.from(Map m1) {
+  factory Quotes.fromMap(Map m1) {
     return Quotes(
         name: m1['author'],
         quotes: m1['quotes'],
-        birthday: Birthday.from(m1['birthday']),
-        dream: Dream.from(m1['dream']),
-        failure: Failure.from(m1['failure']),
-        fun: Fun.from(m1['fun']),
-        gaming: Gaming.from(m1['gaming']),
-        general: General.from(m1['general']),
-        humorous: Humorous.from(m1['humorous']),
-        life: Life.from(m1['life']),
-        motivational: Motivational.from(m1['motivational']),
-        programming: Programming.from(m1['programming']),
-        success: Success.from(m1['success']),
-        travel: Travel.from(m1['travel']));
+        birthday: Birthday.fromMap(m1['birthday']),
+        dream: Dream.fromMap(m1['dream']),
+        failure: Failure.fromMap(m1['failure']),
+        fun: Fun.fromMap(m1['fun']),
+        gaming: Gaming.fromMap(m1['gaming']),
+        general: General.fromMap(m1['general']),
+        humorous: Humorous.fromMap(m1['humorous']),
+        life: Life.fromMap(m1['life']),
+        motivational: Motivational.fromMap(m1['motivational']),
+        programming: Programming.fromMap(m1['programming']),
+        success: Success.fromMap(m1['success']),
+        travel: Travel.fromMap(m1['travel']));
   }
 }
 
@@ -55,7 +55,7 @@ class Gaming {
 
   Gaming({required this.name, required this.quotes});
 
-  factory Gaming.from(Map m1) {
+  factory Gaming.fromMap(Map m1) {
     return Gaming(name: m1['author'], quotes: m1['quote']);
   }
 }
@@ -65,7 +65,7 @@ class General {
 
   General({required this.name, required this.quotes});
 
-  factory General.from(Map m1) {
+  factory General.fromMap(Map m1) {
     return General(name: m1['author'], quotes: m1['quote']);
   }
 }
@@ -75,7 +75,7 @@ class Life {
 
   Life({required this.name, required this.quotes});
 
-  factory Life.from(Map m1) {
+  factory Life.fromMap(Map m1) {
     return Life(name: m1['author'], quotes: m1['quote']);
   }
 }
@@ -85,7 +85,7 @@ class Success {
 
   Success({required this.name, required this.quotes});
 
-  factory Success.from(Map m1) {
+  factory Success.fromMap(Map m1) {
     return Success(name: m1['author'], quotes: m1['quote']);
   }
 }
@@ -95,7 +95,7 @@ class Motivational {
 
   Motivational({required this.name, required this.quotes});
 
-  factory Motivational.from(Map m1) {
+  factory Motivational.fromMap(Map m1) {
     return Motivational(name: m1['author'], quotes: m1['quote']);
   }
 }
@@ -105,7 +105,7 @@ class Fun {
 
   Fun({required this.name, required this.quotes});
 
-  factory Fun.from(Map m1) {
+  factory Fun.fromMap(Map m1) {
     return Fun(name: m1['author'], quotes: m1['quote']);
   }
 }
@@ -115,7 +115,7 @@ class Programming {
 
   Programming({required this.name, required this.quotes});
 
-  factory Programming.from(Map m1) {
+  factory Programming.fromMap(Map m1) {
     return Programming(name: m1['author'], quotes: m1['quote']);
   }
 }
@@ -125,7 +125,7 @@ class Dream {
 
   Dream({required this.name, required this.quotes});
 
-  factory Dream.from(Map m1) {
+  factory Dream.fromMap(Map m1) {
     return Dream(name: m1['author'], quotes: m1['quote']);
   }
 }
@@ -135,7 +135,7 @@ class Failure {
 
   Failure({required this.name, required this.quotes});
 
-  factory Failure.from(Map m1) {
+  factory Failure.fromMap(Map m1) {
     return Failure(name: m1['author'], quotes: m1['quote']);
   }
 }
@@ -145,7 +145,7 @@ class Birthday {
 
   Birthday({required this.name, required this.quotes});
 
-  factory Birthday.from(Map m1) {
+  factory Birthday.fromMap(Map m1) {
     return Birthday(name: m1['author'], quotes: m1['quote']);
   }
 }
@@ -155,7 +155,7 @@ class Humorous {
 
   Humorous({required this.name, required this.quotes});
 
-  factory Humorous.from(Map m1) {
+  factory Humorous.fromMap(Map m1) {
     return Humorous(name: m1['author'], quotes: m1['quote']);
   }
 }
@@ -165,7 +165,7 @@ class Travel {
 
   Travel({required this.name, required this.quotes});
 
-  factory Travel.from(Map m1) {
+  factory Travel.fromMap(Map m1) {
     return Travel(name: m1['author'], quotes: m1['quote']);
   }
 }

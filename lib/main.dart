@@ -35,13 +35,13 @@ class _HomescreenState extends State<Homescreen> {
   void initState() {
     // TODO: implement initState
     super.initState();
-
+    quoteslist=quotesapplist.map((e)=> Quotes.fromMap(e)).toList();
   }
   Widget build(BuildContext context) {
     return Scaffold(
 body: ListView.builder(itemCount: quoteslist.length,itemBuilder: (context, index) {
   ListTile(
-    leading: quoteslist[index],
+    leading: Text('${quoteslist[index]}')
   );
 },),
     );
